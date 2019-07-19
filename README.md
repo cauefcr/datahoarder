@@ -27,3 +27,7 @@ Usage of ./hoarder:
   -wait int
     	Select how much time to wait in between getting data (default 300)
 ```
+
+Changelog:
+
+version 0.1: all features working on binance, on other exchanges we can't get the past trades.
