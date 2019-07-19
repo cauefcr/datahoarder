@@ -17,7 +17,7 @@ Usage of ./hoarder:
   -out string
     	output folder where the things will be saved (default "data")
   -proxy string
-    	What proxy to use, leave black to select no proxy
+    	What proxy to use, leave blank to select no proxy
   -symbol string
     	select which pair to get the orderbooks from (default "BTC_USD")
   -symboltrades string

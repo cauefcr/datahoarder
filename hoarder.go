@@ -63,7 +63,7 @@ func init() {
 	flag.StringVar(&interval, "interval", "5m", "what's the interval to get tickers at")
 	flag.StringVar(&outputFolder, "out", "data", "output folder where the things will be saved")
 	flag.IntVar(&limitperminute, "limit", 200, "what's the maximum api calls per minute, so it's throttled properly")
-	flag.StringVar(&proxy, "proxy", "", "What proxy to use, leave black to select no proxy")
+	flag.StringVar(&proxy, "proxy", "", "What proxy to use, leave blank to select no proxy")
 	flag.StringVar(&binanceticker, "symboltrades", "BTCTUSD", "set symbol for getting trades")
 	flag.IntVar(&wait, "wait", 5*60, "Select how much time to wait in between getting data")
 	flag.BoolVar(&fasthistorical, "fast", true, "select if the historical tick data gatherer can ignore the wait")
